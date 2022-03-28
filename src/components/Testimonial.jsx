@@ -6,12 +6,12 @@ import twitterIcon from '../svg/icon-twitter.svg';
 
 function Testimonial(){
     return (
-        <div tw=' shadow-md m-auto mt-5 w-[18rem] p-5 bg-[#ffd543] rounded-sm '>
+        <div tw=' shadow-md mt-5 w-[18rem] h-auto p-5 bg-[#ffd543] rounded-sm '>
             <div tw='' >
-                <a tw='block relative ' >
+                <a tw='' >
                 <img tw='mx-auto object-cover rounded-full h-32 w-32 shadow-lg ' src= {require('../images/01.JPG')} />
                 </a>
-                <div tw='flex gap-1 justify-center pt-3' >
+                <div tw='flex gap-1 justify-center' >
                 <img src= {gitIcon} />
                 <img src= {linkedinIcon} />
                 <img src= {twitterIcon} />
