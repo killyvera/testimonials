@@ -6,10 +6,12 @@ import './App.css';
 
 function App() {
   return (
-    < div tw=" flex flex-col pb-5 gap-8 sm:flex-row m-auto place-content-center" >
-    <Testimonial />
-    <Testimonial />
-    <Testimonial />
+    < div tw="" >
+    <Testimonial
+    name ="Jhon doe"
+    position= "Full Stack Developer"
+    testimonial="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+    />
     </div>
   );
 }
