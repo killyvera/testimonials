@@ -5,7 +5,7 @@ import Testimonial from './components/Testimonial.jsx'
 
 function App() {
   return (
-    < div tw="flex justify-center items-center" >
+    < div tw="flex justify-center items-center sm:flex-col " >
     <Testimonial
     image="01.JPG"
     name ="Jhon doe"
