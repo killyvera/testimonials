@@ -1,11 +1,13 @@
 
 /** @jsxImportSource @emotion/react */
 import tw from 'twin.macro';
-import Testimonial from './components/Testimonial.jsx'
+import Testimonial from './components/Testimonial/Testimonial.jsx'
+import React from 'react';
 
-function App() {
+function App  () {
+
   return (
-    < div tw="flex justify-center items-center sm:flex-col " >
+    < div tw="flex justify-center items-center sm:flex-row " >
     <Testimonial
     image="01.JPG"
     name ="Jhon doe"
